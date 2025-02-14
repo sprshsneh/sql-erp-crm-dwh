@@ -89,3 +89,21 @@ CREATE TABLE bronze.erp_px_cat_g1v2 (
 );
 GO
 
+IF OBJECT_ID('CRM_ERP_DWH.bronze.etl_audit_log', 'U') IS NOT NULL
+    DROP TABLE CRM_ERP_DWH.bronze.etl_audit_log;
+GO
+-- Create the etl_audit_log Table
+CREATE TABLE CRM_ERP_DWH.bronze.etl_audit_log (
+    id					INT IDENTITY(1,1) PRIMARY KEY,
+    procedure_name		NVARCHAR(255),
+    table_name			NVARCHAR(255),
+    start_time			DATETIME,
+    end_time			DATETIME,
+    rows_before			INT,
+    rows_deleted		INT,
+    rows_after			INT,
+    load_duration		INT,
+    status				NVARCHAR(50),
+    error_message		NVARCHAR(MAX)
+);
+GO
