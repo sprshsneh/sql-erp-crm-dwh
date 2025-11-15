@@ -1,8 +1,8 @@
 
 # CRM ERP Data Warehouse and Analytics Project
 
-Welcome to the **CRM ERP Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the **BusinessOps 360 Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a comprehensive data warehousing and analytics solution for ERP and CRM data, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
 ## 📖 Project Overview
@@ -13,6 +13,10 @@ This project involves:
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+    <img width="1544" height="912" alt="businessOps360_data_architecture" src="https://github.com/user-attachments/assets/a101c112-9943-4a63-8c33-5b401942f699" />
+
+
 
 ---
 
